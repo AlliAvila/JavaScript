@@ -2,8 +2,8 @@
   console.log('Hello World');
 
 let name = 'Allison';  //String literal
-let age = 15; //number literal
-let isApproved = true; //Boolean literal
+let age = 15; //Number Literal
+let isApproved = true; //Boolean Literal
 let firstName = undefined;
 let selectedColor = null;
 console.log(name);
@@ -19,3 +19,18 @@ let lastName = 'Avila';
 const interestRate = 0.3;
 interestRate = 1;
 console.log(interestRate);
+
+
+let person = {
+name:'Name',
+age: 102
+};
+
+//Dot Notation
+person.name = 'Word';
+
+//Bracket Notation
+let selection = 'nam';
+person[Selection] = 'Jen';
+
+console.log(person.name);
