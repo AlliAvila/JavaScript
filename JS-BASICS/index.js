@@ -1,4 +1,5 @@
-  //This is my first JavaScript code!
+ /*
+ //This is my first JavaScript code!
   console.log('Hello World');
 
 let name = 'Allison';  //String literal
@@ -34,3 +35,27 @@ let selection = 'nam';
 person[Selection] = 'Jen';
 
 console.log(person.name);
+
+let selectedColors = ['red','blue'];
+selectedColors[2] = 1;
+console.log(selectedColors.length);
+*/
+function greet(name, lastName) {
+  console.log(name + ' ' + lastName + ' is the best programmer');
+}
+
+greet('Allison','Avila');
+
+/*
+//calculating a value
+function square(number) {
+  return number * number;
+}
+
+console.log(square(2));
+*/
+function area(base, height) {
+  return base * height / 2;
+} 
+
+console.log (area(12,17));
