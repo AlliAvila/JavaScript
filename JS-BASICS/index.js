@@ -59,3 +59,23 @@ function area(base, height) {
 } 
 
 console.log (area(12,17));
+
+
+for (let i = 0; i >= 100; i--) {
+  console.log('Hello World' , i);
+}
+/*
+if (1 % 2 !==0) console.log(i);
+*/
+function power(base, exponent) {
+  result = 1;
+for (let i = 0; i < exponent; i++){
+  result = result*base;
+}
+return result;
+}
+console.log(power(2,4))
+
+/*
+if (base % power !==0) console.log(i(1,4));
+*/
