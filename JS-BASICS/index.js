@@ -71,7 +71,7 @@ function power(base, exponent) {
   result = 1;
 for (let i = 0; i < exponent; i++){
   result = result*base;
-}
+ }
 return result;
 }
 console.log(power(2,4))
@@ -79,3 +79,14 @@ console.log(power(2,4))
 /*
 if (base % power !==0) console.log(i(1,4));
 */
+/*
+Write a function that takes 2 numbers. And starts with the first numbers and add all the numbers up to the second number. Returns the total. Ex:total (4,8) should return 4+5+6+7+8=30
+*/
+
+function addition(start,end){
+  let result = 0;
+  for (let i = start; i <= end; i++)
+  result = result + i; 
+  return result;
+}
+console.log(addition(4,63))
