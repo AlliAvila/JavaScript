@@ -107,17 +107,40 @@ for (let i=1; i<101 ; i++){
   console.log(i)
 }
 */
-
-let password="magnolia123"
+/*
+let password="9a22w0rd"
 let userInput="sdsf"
+userInput=prompt("Please enter the right password")
 
-while (userInput =! password){
+while (userInput !== password){
   userInput=prompt("Please enter the right password")
   console.log(userInput)
 }
 
 alert ("Welcome :)")
+*/
 /*
 let myName=prompt("Please say your name")
 alert ("Welcome " + myName + " to your website"
 */
+
+//Hour
+//If hour is between 6am and 12pm: Good morning!
+//If it is betweem 12pm and 5 pm: Good afternoon!
+//Otherwisse: Good evening!
+let hour = 10;
+
+if (hour >= 6 && hour < 12) {
+  console.log('Good morning!');
+}
+ 
+else if (hour >= 12 && hour < 17) {
+  console.log('Good afternoon!');
+}
+
+else if (hour >= 17 && hour < 20) {
+  console.log('Good evening!');
+}
+
+else
+  console.log('Good night!');
