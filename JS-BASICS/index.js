@@ -106,19 +106,33 @@ while (counter<101){
 for (let i=1; i<101 ; i++){
   console.log(i)
 }
-*/
+*/ 
 /*
-let password="9a22w0rd"
-let userInput="sdsf"
-userInput=prompt("Please enter the right password")
 
 while (userInput !== password){
   userInput=prompt("Please enter the right password")
   console.log(userInput)
 }
 
-alert ("Welcome :)")
+let password="9a22w0rd"
+let userInput="sdsf"
+userInput=parseInt(prompt("What is your age?"))
 */
+
+let age = prompt("What is your age?")
+if (age <= 5)
+alert ("You're a baby")
+else if (age > 5 && age <= 10)
+alert ("You're a child")
+else if (age > 10 && age <= 12)
+alert ("You're a tween")
+else if (age > 12 && age <= 19)
+alert ("You're a teenager")
+else if (age > 19 && age <= 70)
+alert ("You're an adult")
+else if (age > 70 && age <=100)
+alert ("You're old")
+
 /*
 let myName=prompt("Please say your name")
 alert ("Welcome " + myName + " to your website"
@@ -128,6 +142,7 @@ alert ("Welcome " + myName + " to your website"
 //If hour is between 6am and 12pm: Good morning!
 //If it is betweem 12pm and 5 pm: Good afternoon!
 //Otherwisse: Good evening!
+/*
 let hour = 10;
 
 if (hour >= 6 && hour < 12) {
@@ -144,3 +159,6 @@ else if (hour >= 17 && hour < 20) {
 
 else
   console.log('Good night!');
+*/
+
+
