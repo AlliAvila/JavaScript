@@ -118,7 +118,7 @@ let password="9a22w0rd"
 let userInput="sdsf"
 userInput=parseInt(prompt("What is your age?"))
 */
-
+/*
 let age = prompt("What is your age?")
 if (age <= 5)
 alert ("You're a baby")
@@ -132,7 +132,7 @@ else if (age > 19 && age <= 70)
 alert ("You're an adult")
 else if (age > 70 && age <=100)
 alert ("You're old")
-
+*/
 /*
 let myName=prompt("Please say your name")
 alert ("Welcome " + myName + " to your website"
