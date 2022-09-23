@@ -1,13 +1,31 @@
 const secretNumber = Math.floor(Math.random() * 100);
-alert (secretNumber)
-let userGuess=prompt("Please guess the number")
-if (secretNumber < userGuess)
-alert ("Go lower")
-else if (secretNumber > userGuess)
-alert ("Go higher")
-else if (secretNumber == userGuess)
-alert ("Congrats!")
+let userGuess= null;
+let trial=0;
+
 while (userGuess !== secretNumber){
-    userGuess=prompt("Please guess the number")
-    console.log(userGuess)
+   userGuess=prompt("Please guess the number")
+   trial+= 1;
+   alert ('Guess Number: ' + trial)
+
+  if (userGuess > secretNumber){
+  alert ("Go lower")
   }
+
+  else if ( userGuess < secretNumber){
+  alert ("Go higher")
+  }
+
+  else if (userGuess==secretNumber ){
+  alert ("Congrats!")
+  break;
+  }
+
+  else {
+    alert("Enter Number")
+  }  
+
+  if(trial>4){
+    alert ("Game Over!!, the secret number was " + secretNumber)
+    break;
+  }
+}
